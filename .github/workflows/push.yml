@@ -19,7 +19,7 @@ jobs:
 
       # build project
     - name: Build
-      run: dotnet build ./CsvImporter/CsvImporter.sln --configuration $config --no-restore
+      run: dotnet build ./CsvImporter/CsvImporter.sln --configuration 
       
       # run tests project
     - name: Tests      
