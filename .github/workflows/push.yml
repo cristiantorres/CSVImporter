@@ -23,4 +23,4 @@ jobs:
       
       # run tests project
     - name: Tests      
-      run: dotnet test    
+      run: dotnet test ./CsvImporterTest/CsvImporterTest.csproj   
