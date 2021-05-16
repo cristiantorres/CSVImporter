@@ -15,11 +15,11 @@ jobs:
       with:
         dotnet-version: 3.1.100
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore ./CsvImporter/CsvImporter.sln
 
       # build project
     - name: Build
-      run: dotnet build .PruebaCsvImporter_CristianTorres/CsvImporter/CsvImporter.sln --configuration $config --no-restore
+      run: dotnet build ./CsvImporter/CsvImporter.sln --configuration $config --no-restore
       
       # run tests project
     - name: Tests      
