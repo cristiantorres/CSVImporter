@@ -19,8 +19,8 @@ jobs:
 
       # build project
     - name: Build
-      run: dotnet build ./CsvImporter/CsvImporter.sln --configuration 
+      run: dotnet build ./CsvImporter/CsvImporter.sln  
       
       # run tests project
     - name: Tests      
-      run: dotnet test   --configuration 
+      run: dotnet test    
